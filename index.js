@@ -3,12 +3,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Importer le composant racine de votre application
-import App from './App'; // Remplacez "App" par le nom de votre composant racine
+
+import Carouselaccueil from './carousel';
 
 // Montez le composant racine dans le DOM
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Carouselaccueil />
   </React.StrictMode>,
   document.getElementById('root')
 );
