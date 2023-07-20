@@ -1,6 +1,6 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 
 import accueil1 from './images/accueil1.jpg';
 import accueil2 from './images/accueil2.jpg';
@@ -9,7 +9,7 @@ import accueil3 from './images/accueil3.jpg';
 function Carouselaccueil() {
   return (
     <div className="App">
-      <Carousel>
+      <Carousel autoPlay={true} interval={3000} stopOnHover={false}>
         <div>
           <img src={accueil1} alt="Accueil 1" />
           <p className="legend">Légende de l'image 1</p>
